@@ -4,8 +4,6 @@
 
 rm(list = ls())
 
-#source("getSentiment.R")
-
 data <- read.csv("data/apiMovieQuotes.csv")
 colnames(data)[2] <- "comment"
 colnames(data)[1] <- "id"
