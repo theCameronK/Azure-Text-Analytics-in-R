@@ -9,6 +9,8 @@ After importing the table msut have a "id" and "comment" column. The "comment" c
 
 The example I have posted is the AFI top 100 movie quotes of all time. I change the rank column to be the "id" and the quote to be the "comment" column.
 
+By running staging.R, adding your api key and source .csv, will run the program.
+
 -----------------------------------
 
 The idea is to read in the .csv and turn it into a table. Then reading off the table turn the text and id into acceptable json format and push that to the API. The return json is parsed back into a table, combined with the original table and exported to a .csv as well as a dataFrame that can be manipulated in R.
