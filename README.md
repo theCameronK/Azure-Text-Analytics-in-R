@@ -9,7 +9,7 @@ After importing the table msut have a "id" and "comment" column. The "comment" c
 
 The example I have posted is the AFI top 100 movie quotes of all time. I change the rank column to be the "id" and the quote to be the "comment" column.
 
-By running staging.R, adding your api key and source .csv, will run the program.
+By running staging.R, adding your API key and source .csv, will run the program.
 
 -----------------------------------
 
